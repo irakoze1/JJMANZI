@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJ Photography</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">JJPIC</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#Home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#About" onclick="toggleMenu();">About</a></li>
+            <li><a href="#Service" onclick="toggleMenu();">Service</a></li>
+            <li><a href="#Work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#gallery" onclick="toggleMenu();">Gallery</a></li>
+            <li><a href="#Testmonial" onclick="toggleMenu();">Testmonial</a></li>
+            <li><a href="#Contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="Home">
+        <div class="textbx">
+            <h2>Hello, I'm <br> <span>Jean Edmon Manzi.</span></h2>
+            <h3>I’m a Photographer</h3>
+            <a href="#About" class="btn">About Me</a>
+        </div>
+    </section>
+    <section class="about" id="About">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+        <div class="contentBx w50s">
+            <h3>I’m a Photographer</h3>
+            <p>
+                The world without photography will be meaningless to us if there is no light and color, which opens up our minds and expresses passion. My photos are inspired by light, color, creative perspective, techniques & personalities.
+            </p>
+        </div>
+        <div class="w50">
+            <img src="img/img1.jpg" class="img">
+        </div>
+        </div>
+    </section>
+    <section class="services" id="Service">
+        <div class="heading white">
+            <h2>Our Services</h2>
+            <p>
+                The world without photography will be meaningless to us if there is no light and color.
+            </p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="img/icon1.png">
+                <h2>Designer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate earum provident.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon2.png">
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate earum provident.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon3.png">
+                <h2>Andrid App</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate earum provident.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon4.png">
+                <h2>Photography</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate earum provident.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon5.png">
+                <h2>Content Writting</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate earum provident.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon6.png">
+                <h2>Video Editing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate earum provident.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="Work">
+        <div class="heading">
+            <h2>Our Latest Product</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="img/product1.jpg">
+            </div>
+            <div class="workBx">
+                <img src="img/product2.jpg">
+            </div>
+            <div class="workBx">
+                <img src="img/product3.jpg">
+            </div>
+            <div class="workBx">
+                <img src="img/product4.jpg">
+            </div>
+            <div class="heading">
+                <a href="#gallery" class="btn" >View More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="heading">
+            <h2>Our Gallery Pictures</h2>
+        </div>
+        <ul>
+            <li class="list active" data-filter="all">All</li>
+            <li class="list" data-filter="mobile">Mobile</li>
+            <li class="list" data-filter="camera">Camera</li>
+            <li class="list" data-filter="watch">Watch</li>
+            <li class="list" data-filter="shoe">Shoe</li>
+            <li class="list" data-filter="headphone">Headphone</li>
+            <li class="list" data-filter="wedding">Wedding</li>
+            <li class="list" data-filter="dowry">Dowry</li>
+            <li class="list" data-filter="fashion">Fashion</li>
+            <li class="list" data-filter="lifestyle">Lifestyle</li>
+            <li class="list" data-filter="studio">Studio</li>
+        </ul>
+        <div class="product">
+            <div class="itemBox mobile"><img src="img/mobile1.jpg"></div>
+            <div class="itemBox camera"><img src="img/camera1.jpg"></div>
+            <div class="itemBox watch"><img src="img/watch1.jpg"></div>
+            <div class="itemBox shoe"><img src="img/shoe1.jpg"></div>
+            <div class="itemBox headphone"><img src="img/headphone1.jpg"></div>
+            <div class="itemBox wedding"><img src="img/wedding1.jpg"></div>
+            <div class="itemBox dowry"><img src="img/dowry1.jpg"></div>
+            <div class="itemBox fashion"><img src="img/fashion1.jpg"></div>
+            <div class="itemBox lifestyle"><img src="img/lifestyle1.jpg"></div>
+            <div class="itemBox studio"><img src="img/studio1.jpg"></div>
+
+
+            <div class="itemBox mobile"><img src="img/mobile2.jpg"></div>
+            <div class="itemBox camera"><img src="img/camera2.jpg"></div>
+            <div class="itemBox watch"><img src="img/watch2.jpg"></div>
+            <div class="itemBox shoe"><img src="img/shoe2.jpg"></div>
+            <div class="itemBox headphone"><img src="img/headphone2.jpg"></div>
+            <div class="itemBox wedding"><img src="img/wedding2.jpg"></div>
+            <div class="itemBox dowry"><img src="img/dowry2.jpg"></div>
+            <div class="itemBox fashion"><img src="img/fashion2.jpg"></div>
+            <div class="itemBox lifestyle"><img src="img/lifestyle2.jpg"></div>
+            <div class="itemBox studio"><img src="img/studio2.jpg"></div>
+
+
+            <div class="itemBox mobile"><img src="img/mobile3.jpg"></div>
+            <div class="itemBox camera"><img src="img/camera3.jpg"></div>
+            <div class="itemBox watch"><img src="img/watch3.jpg"></div>
+            <div class="itemBox shoe"><img src="img/shoe3.jpg"></div>
+            <div class="itemBox headphone"><img src="img/headphone3.jpg"></div>
+            <div class="itemBox wedding"><img src="img/wedding3.jpg"></div>
+            <div class="itemBox dowry"><img src="img/dowry3.jpg"></div>
+            <div class="itemBox fashion"><img src="img/fashion3.jpg"></div>
+            <div class="itemBox lifestyle"><img src="img/lifestyle3.jpg"></div>
+            <div class="itemBox studio"><img src="img/studio3.jpg"></div>
+
+
+            <div class="itemBox mobile"><img src="img/mobile4.jpg"></div>
+            <div class="itemBox watch"><img src="img/watch4.jpg"></div>
+            <div class="itemBox shoe"><img src="img/shoe4.jpg"></div>
+            <div class="itemBox headphone"><img src="img/headphone4.jpg"></div><div class="itemBox wedding"><img src="img/wedding4.jpg"></div>
+            <div class="itemBox dowry"><img src="img/dowry4.jpg"></div>
+            <div class="itemBox fashion"><img src="img/fashion4.jpg"></div>
+            <div class="itemBox lifestyle"><img src="img/lifestyle4.jpg"></div>
+            <div class="itemBox studio"><img src="img/studio4.jpg"></div>
+            <div class="itemBox dowry"><img src="img/dowry5.jpg"></div>
+
+
+        </div>
+    </section>
+    
+    <section class="testmonial" id="Testmonial">
+        <div class="heading">
+            <h2>Testmonial</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="testmonialBx">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iure magnam nemo repudiandae accusantium doloremque quod perspiciatis a laborum. Omnis iure a accusantium autem provident aperiam neque cupiditate totam libero?
+                </p>
+                <h3>Someone Famous <br><span>Creative Designer</span></h3>
+            </div>
+            <div class="testmonialBx">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iure magnam nemo repudiandae accusantium doloremque quod perspiciatis a laborum. Omnis iure a accusantium autem provident aperiam neque cupiditate totam libero?
+                </p>
+                <h3>Someone Famous <br><span>Creative Designer</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="Contact">
+        <div class="heading white">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>23 Avenue Nzero,<br>Gihosha Gikungu-Rural <br>67527</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+257 68724498</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>irth@biu.bi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright @2020 TiTiToF. All Right Reserved</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function(){
+          $('.list').click(function(){
+              const value = $(this).attr('data-filter');
+
+              if (value == 'all') {
+                  $('.itemBox').show('1000');
+              } else {
+                  $('.itemBox').not('.'+value).hide('1000');
+                  $('.itemBox').filter('.'+value).show('1000');
+              }
+          })
+          $('.list').click(function(){
+              $(this).addClass('active').siblings().removeClass('active');
+          })
+      })
+  </script>
+    <script>
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        })
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
